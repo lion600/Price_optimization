@@ -6,3 +6,4 @@ pandas==1.2.3
 matplotlib
 seaborn
 statsmodels
+python == 3.11
