@@ -1,9 +1,8 @@
-streamlit==1.21.0
 pandas==1.5.3
 numpy==1.24.2
-matplotlib==3.7.1
 seaborn==0.12.2
 plotly==4.14.3
-scikit-learn
 statsmodels
-
+streamlit>=0.49.0
+matplotlib>=3.0.2
+scikit-learn>=0.20.1
