@@ -17,10 +17,10 @@ def predict_page():
        'computers_accessories', 'watches_gifts', 'furniture_decor')
 
     category = st.selectbox("Category",cate)
-    total_price = st.number_input("Enter total_price", min_value=0, max_value=100, value=50, step=1)
+    total_price = st.number_input("Enter total_price", min_value=0, max_value=15000, value=1500, step=1)
     shipping = st.number_input("Enter shipping price", min_value=0, max_value=100, value=50, step=1)
-    customer_price = st.number_input("Enter number of Customers", min_value=0, max_value=100, value=50, step=1)
-    product_score = st.number_input("Enter a number", min_value=0, max_value=100, value=50, step=1)
+    customer_price = st.number_input("Enter number of Customers", min_value=0, max_value=500, value=50, step=1)
+    product_score = st.number_input("Enter a number",min_value=0.0, max_value=5.0,value=3.0,step=1.0,format="%.2f")
 
     OK = st.button("Calculate unit price")
 
