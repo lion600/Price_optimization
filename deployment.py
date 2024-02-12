@@ -10,7 +10,7 @@ data = load_model()
 
 def predict_page():
     st.title("Price Optimization")
-    st.write("""#### we need some info###""")
+    st.write("""#### we need some info""")
 
     cate = ('bed_bath_table', 'garden_tools', 'consoles_games',
        'health_beauty', 'cool_stuff', 'perfumery',
