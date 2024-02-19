@@ -24,5 +24,8 @@ This project focuses on implementing a price optimization strategy for products 
 
 ## Screenshots of application
    
-
+1. Predict Page
 <img width="949" alt="ui1" src="https://github.com/lion600/Price_optimization/assets/64638098/95d376f5-a4ea-4830-8a77-79f5c0c85ec2">
+
+2. Explore page(EDA)
+<img width="960" alt="ui2" src="https://github.com/lion600/Price_optimization/assets/64638098/5e6bb211-8196-4702-9c25-104980b2333e">
